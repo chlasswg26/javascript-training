@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditionals and Loops</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <!-- <script>
+        var person = { age: 33 };
+        if (person.age >= 18) {
+            alert("Adult"); // => Adult
+            alert("Allowed to vote"); // => Allowed to vote
+        }
+        var a = 4; // less than equal 7
+        var b = 5; // greater than equal 10
+        if (a <= 7 || b > 10) { // true
+            alert("yes"); // => yes
+        }
+    </script> -->
+    <!-- <script>
+        var a = 4;
+        var b = 5;
+        if (a <= 7 || b > 10) { // true
+            alert("yes"); // => yes
+        }
+    </script> -->
+    <script>
+        var text = "";
+        var i = 0;
+
+        while (i < 10) {
+            text += "<br />The number is " + i;
+            i++;
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>
